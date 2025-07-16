@@ -1,0 +1,107 @@
+time,type,severity,description
+2025-07-17 03:25:08,DDoS,low,SQL injection pattern detected
+2025-07-17 03:25:09,Malware,high,SQL injection pattern detected
+2025-07-17 03:25:10,Phishing,high,Malicious payload detected in network packet
+2025-07-17 03:25:11,Malware,medium,Malicious payload detected in network packet
+2025-07-17 03:25:12,Brute Force,low,Multiple failed login attempts from same IP
+2025-07-17 03:25:13,DDoS,low,Multiple failed login attempts from same IP
+2025-07-17 03:25:14,Brute Force,high,Multiple failed login attempts from same IP
+2025-07-17 03:25:15,Phishing,low,Malicious payload detected in network packet
+2025-07-17 03:25:16,DDoS,medium,Suspicious login attempt detected
+2025-07-17 03:25:17,SQL Injection,high,Excessive bandwidth usage detected
+2025-07-17 03:25:18,Brute Force,medium,Malicious payload detected in network packet
+2025-07-17 03:25:19,Phishing,low,Suspicious login attempt detected
+2025-07-17 03:25:20,Malware,high,Excessive bandwidth usage detected
+2025-07-17 03:25:21,Malware,low,Excessive bandwidth usage detected
+2025-07-17 03:25:22,Malware,medium,Excessive bandwidth usage detected
+2025-07-17 03:25:23,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:25:24,SQL Injection,medium,Multiple failed login attempts from same IP
+2025-07-17 03:25:25,Malware,low,Excessive bandwidth usage detected
+2025-07-17 03:25:26,DDoS,low,Multiple failed login attempts from same IP
+2025-07-17 03:25:27,Brute Force,low,Excessive bandwidth usage detected
+2025-07-17 03:25:28,Phishing,high,Suspicious login attempt detected
+2025-07-17 03:25:29,Brute Force,medium,Suspicious login attempt detected
+2025-07-17 03:25:30,DDoS,low,Excessive bandwidth usage detected
+2025-07-17 03:25:31,Brute Force,low,Malicious payload detected in network packet
+2025-07-17 03:25:32,Brute Force,high,Multiple failed login attempts from same IP
+2025-07-17 03:25:33,Malware,low,Excessive bandwidth usage detected
+2025-07-17 03:25:34,Brute Force,high,Malicious payload detected in network packet
+2025-07-17 03:25:35,Brute Force,low,SQL injection pattern detected
+2025-07-17 03:25:36,Phishing,low,Multiple failed login attempts from same IP
+2025-07-17 03:25:37,Phishing,high,Malicious payload detected in network packet
+2025-07-17 03:25:38,Phishing,medium,Malicious payload detected in network packet
+2025-07-17 03:25:39,SQL Injection,high,Multiple failed login attempts from same IP
+2025-07-17 03:25:40,Phishing,high,Excessive bandwidth usage detected
+2025-07-17 03:25:41,DDoS,low,Excessive bandwidth usage detected
+2025-07-17 03:25:42,Phishing,high,Suspicious login attempt detected
+2025-07-17 03:25:43,SQL Injection,low,Suspicious login attempt detected
+2025-07-17 03:25:44,Phishing,medium,Excessive bandwidth usage detected
+2025-07-17 03:25:45,Malware,medium,SQL injection pattern detected
+2025-07-17 03:25:46,Malware,low,Excessive bandwidth usage detected
+2025-07-17 03:25:47,Malware,high,SQL injection pattern detected
+2025-07-17 03:25:49,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:25:50,Brute Force,high,Excessive bandwidth usage detected
+2025-07-17 03:25:51,SQL Injection,medium,Excessive bandwidth usage detected
+2025-07-17 03:25:52,Phishing,low,Excessive bandwidth usage detected
+2025-07-17 03:25:53,DDoS,medium,Malicious payload detected in network packet
+2025-07-17 03:25:54,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:25:55,Malware,medium,Malicious payload detected in network packet
+2025-07-17 03:25:56,SQL Injection,low,Multiple failed login attempts from same IP
+2025-07-17 03:25:57,Brute Force,high,Suspicious login attempt detected
+2025-07-17 03:25:58,Phishing,low,SQL injection pattern detected
+2025-07-17 03:25:59,Malware,medium,Suspicious login attempt detected
+2025-07-17 03:26:00,Phishing,high,SQL injection pattern detected
+2025-07-17 03:26:01,SQL Injection,low,Suspicious login attempt detected
+2025-07-17 03:26:02,Phishing,high,Suspicious login attempt detected
+2025-07-17 03:26:03,Malware,medium,Malicious payload detected in network packet
+2025-07-17 03:26:04,Brute Force,low,Malicious payload detected in network packet
+2025-07-17 03:26:05,DDoS,high,Malicious payload detected in network packet
+2025-07-17 03:26:06,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:26:07,Malware,medium,SQL injection pattern detected
+2025-07-17 03:26:08,DDoS,medium,Multiple failed login attempts from same IP
+2025-07-17 03:26:09,Malware,medium,SQL injection pattern detected
+2025-07-17 03:26:10,DDoS,low,Excessive bandwidth usage detected
+2025-07-17 03:26:11,DDoS,high,SQL injection pattern detected
+2025-07-17 03:26:12,Malware,medium,Malicious payload detected in network packet
+2025-07-17 03:26:13,Brute Force,high,Excessive bandwidth usage detected
+2025-07-17 03:26:14,Phishing,medium,SQL injection pattern detected
+2025-07-17 03:26:15,Malware,medium,Multiple failed login attempts from same IP
+2025-07-17 03:26:16,DDoS,low,Excessive bandwidth usage detected
+2025-07-17 03:26:17,SQL Injection,high,Suspicious login attempt detected
+2025-07-17 03:26:18,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:26:19,Phishing,medium,Excessive bandwidth usage detected
+2025-07-17 03:26:20,SQL Injection,high,SQL injection pattern detected
+2025-07-17 03:26:21,SQL Injection,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:22,DDoS,high,Excessive bandwidth usage detected
+2025-07-17 03:26:23,SQL Injection,medium,Excessive bandwidth usage detected
+2025-07-17 03:26:24,DDoS,low,Excessive bandwidth usage detected
+2025-07-17 03:26:25,SQL Injection,medium,Multiple failed login attempts from same IP
+2025-07-17 03:26:26,Phishing,high,Multiple failed login attempts from same IP
+2025-07-17 03:26:27,DDoS,medium,Malicious payload detected in network packet
+2025-07-17 03:26:28,SQL Injection,high,Malicious payload detected in network packet
+2025-07-17 03:26:29,Phishing,medium,Suspicious login attempt detected
+2025-07-17 03:26:30,Malware,high,Excessive bandwidth usage detected
+2025-07-17 03:26:31,DDoS,medium,SQL injection pattern detected
+2025-07-17 03:26:32,SQL Injection,medium,SQL injection pattern detected
+2025-07-17 03:26:33,DDoS,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:34,SQL Injection,medium,Malicious payload detected in network packet
+2025-07-17 03:26:35,Malware,low,Malicious payload detected in network packet
+2025-07-17 03:26:36,Brute Force,low,Suspicious login attempt detected
+2025-07-17 03:26:37,SQL Injection,medium,Multiple failed login attempts from same IP
+2025-07-17 03:26:38,DDoS,high,SQL injection pattern detected
+2025-07-17 03:26:39,Brute Force,high,Malicious payload detected in network packet
+2025-07-17 03:26:40,SQL Injection,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:41,Phishing,high,Multiple failed login attempts from same IP
+2025-07-17 03:26:42,SQL Injection,medium,Excessive bandwidth usage detected
+2025-07-17 03:26:43,Phishing,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:44,Brute Force,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:45,Brute Force,medium,SQL injection pattern detected
+2025-07-17 03:26:46,Brute Force,high,Suspicious login attempt detected
+2025-07-17 03:26:47,SQL Injection,high,SQL injection pattern detected
+2025-07-17 03:26:48,SQL Injection,high,Multiple failed login attempts from same IP
+2025-07-17 03:26:49,DDoS,low,Malicious payload detected in network packet
+2025-07-17 03:26:50,Malware,low,Multiple failed login attempts from same IP
+2025-07-17 03:26:51,Malware,medium,SQL injection pattern detected
+2025-07-17 03:26:52,Phishing,low,Suspicious login attempt detected
+2025-07-17 03:26:53,Malware,medium,Multiple failed login attempts from same IP
+2025-07-17 03:26:54,DDoS,high,Multiple failed login attempts from same IP
