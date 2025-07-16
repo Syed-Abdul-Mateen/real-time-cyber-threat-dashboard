@@ -7,13 +7,25 @@ This project is a real-time dashboard built with Flask that simulates and displa
 ## Project Structure
 
 ```
-Real-Time Cyber Threat Visualization Dashboard/
+real-time-cyber-threat-dashboard/
 │
-├── app.py                   # Flask backend and simulation logic
-├── requirements.txt         # Project dependencies
+├── app.py                             # Main Flask application
+├── simulate_threat.py                # Script to simulate threats (sends data)
+├── requirements.txt                  # All Python dependencies
+├── .gitignore                        # Files/folders to ignore in Git
+├── README.md                         # Project documentation
 │
-└── templates/
-    └── index.html           # HTML dashboard UI
+├── templates/
+│   └── dashboard.html                # Main HTML template (UI)
+│
+├── static/
+│   ├── css/
+│   │   └── style.css                 # Optional: custom styles
+│   └── js/
+│       └── charts.js                 # Optional: JS for chart logic
+│
+└── threat_logs.csv (optional)        # CSV export file – can be excluded
+
 ```
 
 ---
