@@ -1,72 +1,73 @@
 # Real-Time Cyber Threat Visualization Dashboard
 
-This project is a Flask-based real-time dashboard to visualize and monitor simulated cyber threats. It includes live data feeds, search, filters, CSV export, and interactive charts using Chart.js.
+A Flask-based real-time dashboard for visualizing and monitoring simulated cyber threats. This system features live data streaming, advanced filtering, and dynamic visualizations to support proactive threat detection workflows.
 
 ## Features
 
-- Real-time live threat feed
-- Bar chart for threat severity
-- Pie chart for threat types
-- Filtering by type and severity
-- Searchable log table
-- Auto-refresh threat data (without reloading charts)
-- Export threats as CSV
-- Modern dark-themed responsive UI
+- Real-time cyber threat feed (auto-updating)
+- Interactive bar chart showing threat severity
+- Pie chart summarizing threat categories
+- Filter threats by type and severity
+- Searchable and paginated log table
+- Download logs as CSV with one click
+- Responsive dark-themed UI for seamless desktop use
 
 ## Project Structure
-```
+
 real-time-cyber-threat-dashboard/
 ├── app.py                   # Flask backend
-├── simulate_threat.py       # Threat simulation script
+├── simulate_threat.py       # Simulates random threats
 ├── requirements.txt         # Python dependencies
-├── README.md
+├── README.md                # Project documentation
 ├── templates/
-│   └── dashboard.html       # Main UI template
+│   └── dashboard.html       # Frontend UI template
 ├── static/
 │   ├── css/
-│   │   └── style.css        # Dashboard styling
+│   │   └── style.css        # Custom dashboard styles
 │   └── js/
-│       └── charts.js        # Optional JS code
-└── threat_logs.csv          # Exported threat data
-```
+│       └── charts.js        # Chart rendering logic
+└── threat_logs.csv          # Auto-generated threat logs
+
 ## Setup Instructions
 
-# 1. Clone the repository
+# Step 1: Clone the repository
 git clone https://github.com/Syed-Abdul-Mateen/real-time-cyber-threat-dashboard.git
 cd real-time-cyber-threat-dashboard
 
-# 2. (Optional) Create a virtual environment
+# Step 2: (Optional) Create a virtual environment
 python -m venv venv
-# Activate:
-venv\Scripts\activate        # On Windows
-source venv/bin/activate     # On macOS/Linux
+# Activate the environment:
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
 
-# 3. Install dependencies
+# Step 3: Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Flask server
+# Step 4: Start the Flask server
 python app.py
 
-# 5. Open the dashboard
-# Visit: http://127.0.0.1:5000 in your browser
+# Step 5: Open the dashboard
+# Visit in your browser:
+http://127.0.0.1:5000
 
-# 6. Start the threat simulation (in a new terminal)
+# Step 6: Run the threat simulation (in a new terminal)
 python simulate_threat.py
 
 ## Export Logs
 
-Click the "Download CSV" button in the dashboard to download all logged threats to `threat_logs.csv`.
+To export all logged threats, click the "Download CSV" button in the dashboard. The data will be saved to threat_logs.csv.
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.7 or higher
 - Flask
 - requests
-- Bootstrap 5 (CDN)
-- Chart.js (CDN)
+- Bootstrap 5 (via CDN)
+- Chart.js (via CDN)
 
-To install dependencies manually:
-
+# To install dependencies manually
 pip install flask requests
 
 ## License
