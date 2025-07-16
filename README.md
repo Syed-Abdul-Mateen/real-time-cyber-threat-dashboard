@@ -12,7 +12,7 @@ A Flask-based real-time dashboard for visualizing and monitoring simulated cyber
 - Responsive dark-themed UI with Bootstrap
 
 ## Project Structure
-
+```
 real-time-cyber-threat-dashboard/
 ├── app.py                   # Flask server (main app)
 ├── simulate_threat.py       # Sends simulated threats to the server
@@ -26,7 +26,7 @@ real-time-cyber-threat-dashboard/
 │   │   └── style.css        # Custom dark theme styles
 │   └── js/
 │       └── charts.js        # Dynamic chart rendering with Chart.js
-
+```
 ## Setup Instructions
 
 # Step 1: Clone the repository
