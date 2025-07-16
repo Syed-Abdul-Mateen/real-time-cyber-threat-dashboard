@@ -1,120 +1,74 @@
 # Real-Time Cyber Threat Visualization Dashboard
 
-This project is a real-time dashboard built with Flask that simulates and displays cybersecurity threats dynamically. It provides alerts such as suspicious logins, malware activity, and network attacks using simulated data refreshed every few seconds.
+This project is a Flask-based real-time dashboard to visualize and monitor simulated cyber threats. It includes live data feeds, search, filters, CSV export, and interactive charts using Chart.js.
 
----
+## Features
+
+- Real-time live threat feed
+- Bar chart for threat severity
+- Pie chart for threat types
+- Filtering by type and severity
+- Searchable log table
+- Auto-refresh threat data (without reloading charts)
+- Export threats as CSV
+- Modern dark-themed responsive UI
 
 ## Project Structure
 
-```
 real-time-cyber-threat-dashboard/
-│
-├── app.py                             # Main Flask application
-├── simulate_threat.py                # Script to simulate threats (sends data)
-├── requirements.txt                  # All Python dependencies
-├── .gitignore                        # Files/folders to ignore in Git
-├── README.md                         # Project documentation
-│
+├── app.py                   # Flask backend
+├── simulate_threat.py       # Threat simulation script
+├── requirements.txt         # Python dependencies
+├── README.md
 ├── templates/
-│   └── dashboard.html                # Main HTML template (UI)
-│
+│   └── dashboard.html       # Main UI template
 ├── static/
 │   ├── css/
-│   │   └── style.css                 # Optional: custom styles
+│   │   └── style.css        # Dashboard styling
 │   └── js/
-│       └── charts.js                 # Optional: JS for chart logic
-│
-└── threat_logs.csv (optional)        # CSV export file – can be excluded
-
-```
-
----
-
-## Requirements
-
-- Python 3.7 or higher
-- pip (Python package manager)
-
----
+│       └── charts.js        # Optional JS code
+└── threat_logs.csv          # Exported threat data
 
 ## Setup Instructions
 
-### 1. Install Python
+# 1. Clone the repository
+git clone https://github.com/yourusername/real-time-cyber-threat-dashboard.git
+cd real-time-cyber-threat-dashboard
 
-Download from https://www.python.org/downloads/  
-Ensure you select **"Add Python to PATH"** during installation.
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+# Activate:
+venv\Scripts\activate        # On Windows
+source venv/bin/activate     # On macOS/Linux
 
----
-
-### 2. Navigate to Project Directory
-
-```bash
-cd "D:\Projects\Real-Time Cyber Threat Visualization Dashboard"
-```
-
----
-
-### 3. (Optional) Create Virtual Environment
-
-```bash
-python -m venv cyber-env
-cyber-env\Scripts\activate
-```
-
----
-
-### 4. Install Dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
----
-
-### 5. Run the Flask App
-
-```bash
+# 4. Run the Flask server
 python app.py
-```
 
-You should see:
+# 5. Open the dashboard
+# Visit: http://127.0.0.1:5000 in your browser
 
-```
-* Running on http://127.0.0.1:5000
-```
+# 6. Start the threat simulation (in a new terminal)
+python simulate_threat.py
 
----
+## Export Logs
 
-### 6. View Dashboard
+Click the "Download CSV" button in the dashboard to download all logged threats to `threat_logs.csv`.
 
-Open your browser and go to:
+## Requirements
 
-```
-http://127.0.0.1:5000
-```
+- Python 3.7+
+- Flask
+- requests
+- Bootstrap 5 (CDN)
+- Chart.js (CDN)
 
-The dashboard updates every few seconds with simulated threat data.
+To install dependencies manually:
 
----
-
-## Customization Ideas
-
-- Integrate real security logs from firewalls or servers
-- Connect with SIEM tools (e.g., Splunk, ELK)
-- Display alerts by severity or type
-- Add user login or admin control
-
----
-
-## Real-World Use Cases
-
-- Educational cybersecurity simulations
-- Prototypes for Security Operations Centers (SOC)
-- Internal dashboards for network teams
-- Training and demonstration environments
-
----
+pip install flask requests
 
 ## License
 
-MIT License — free for use, modification, and distribution.
+This project is licensed under the MIT License.
